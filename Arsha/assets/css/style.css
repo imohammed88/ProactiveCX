@@ -1,25 +1,21 @@
-/**
-* Template Name: Arsha - v4.10.0
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+  font-family: 'Tajawal', sans-serif;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 a {
-  color: #47b2e4;
+  color: #008DCF;
   text-decoration: none;
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #0675be;
   text-decoration: none;
 }
 
@@ -29,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Jost", sans-serif;
+  font-family: 'Tajawal', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -43,7 +39,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: #000A33;
 }
 
 #preloader:before {
@@ -91,7 +87,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #47b2e4;
+  background: #008DCF;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -105,7 +101,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #6bc1e9;
+  background: #000A33;
   color: #fff;
 }
 
@@ -125,7 +121,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(0, 10, 51, 0.8);
 }
 
 #header .logo {
@@ -134,8 +130,8 @@ h6 {
   padding: 0;
   line-height: 1;
   font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  letter-spacing: 0px;
+  text-transform: ;
 }
 
 #header .logo a {
@@ -396,7 +392,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
+  background: #000A33;
 }
 
 #hero .container {
@@ -406,15 +402,20 @@ h6 {
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 56px;
   color: #fff;
 }
 
 #hero h2 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+}
+
+#hero h3 {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 #hero .btn-get-started {
