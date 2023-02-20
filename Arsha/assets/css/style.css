@@ -138,7 +138,6 @@ h6 {
   line-height: 1;
   font-weight: 500;
   letter-spacing: 0px;
-  text-transform: ;
 }
 
 #header .logo a {
@@ -400,6 +399,7 @@ h6 {
   width: 100%;
   height: 80vh;
   background: #000A33;
+  background: repeating-linear-gradient(180deg, #2b2b2b 0%, #2b2b2b 10%, var(--ds-brand-dark-blue) 0%, var(--ds-brand-dark-blue) 50%) 1px / 16px 16px;
 }
 
 #hero .container {
@@ -407,8 +407,8 @@ h6 {
 }
 
 #hero img {
-  width: 80%;
-  padding-left: 100px;
+  width: 85%;
+  padding-left: 150px;
 }
 
 #hero h1 {
