@@ -616,6 +616,7 @@ section {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
+  padding-bottom: 10px;
   margin-bottom: 20px;
   position: relative;
   color: var(--ds-brand-dark-blue);
@@ -1791,6 +1792,12 @@ section {
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #fff;
+}
+
+#footer .footer-logo img {
+  display: block;
+  width: 250px;
+  padding-bottom: 30px;
 }
 
 #footer .footer-top .footer-contact {
