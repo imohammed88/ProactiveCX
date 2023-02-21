@@ -394,7 +394,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   background: #000A33;
   background: repeating-linear-gradient(180deg, #2b2b2b 0%, #2b2b2b 10%, var(--ds-brand-dark-blue) 0%, var(--ds-brand-dark-blue) 50%) 1px / 16px 16px;
 }
@@ -404,7 +404,8 @@ h6 {
 }
 
 #hero img {
-  width: 100%;
+  width: 85%;
+  padding-left: 150px;
 }
 
 #hero h1 {
@@ -416,12 +417,12 @@ h6 {
 }
 
 #hero h2 {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
   font-size: 24px;
 }
 
 #hero h3 {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 20px;
   font-size: 20px;
 }
@@ -433,7 +434,7 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 28px 5px 28px;
-  border-radius: 30px;
+  border-radius: 7px;
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
@@ -562,7 +563,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: var(--ds-brand-dark-blue);
+  color: #37517e;
 }
 
 .section-title h2::before {
@@ -571,7 +572,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: var(--ds-brand-light-gray);
+  background: #ddd;
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -582,7 +583,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: var(--ds-brand-accent-yellow);
+  background: #47b2e4;
   bottom: 0;
   left: calc(50% - 20px);
 }
