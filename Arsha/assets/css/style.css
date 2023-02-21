@@ -193,7 +193,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #008DCF;
+  color: var(--ds-brand-light-blue);
 }
 
 .navbar .getstarted,
@@ -204,14 +204,14 @@ h6 {
   color: #fff;
   font-size: 16px;
   line-height: 100%;
-  border: 2px solid #008DCF;
+  border: 2px solid var(--ds-brand-accent-yellow);
   font-weight: 600;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #008DCF;
+  background: var(--ds-brand-light-blue);
 }
 
 .navbar .dropdown ul {
@@ -398,8 +398,10 @@ h6 {
 #hero {
   width: 100%;
   height: 70vh;
-  background: #000A33;
-  background: repeating-linear-gradient(180deg, #2b2b2b 0%, #2b2b2b 10%, var(--ds-brand-dark-blue) 0%, var(--ds-brand-dark-blue) 50%) 1px / 16px 16px;
+  background-color: #000A33;
+  background-image: url('../img/gradient_experiment.png');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #hero .container {
@@ -564,6 +566,36 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# About us
+--------------------------------------------------------------*/
+
+.software-stack {
+  padding: 20px 20px 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.about-us img {
+  display: block;
+  margin: 0 auto;
+  height: 95px;
+  width: auto;
+  padding-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .software-stack {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .software-stack {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
@@ -585,7 +617,6 @@ section {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
-  padding-bottom: 20px;
   position: relative;
   color: var(--ds-brand-dark-blue);
 }
@@ -607,7 +638,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: var(--ds-brand-accent-yellow)
+  background: var(--ds-brand-accent-yellow);
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -711,7 +742,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #37517e;
+  color: var(--ds-brand-dark-blue);
 }
 
 .why-us .content h4 {
@@ -721,8 +752,7 @@ section {
 }
 
 .why-us .content p {
-  font-size: 15px;
-  color: #848484;
+  color: #000000;
 }
 
 .why-us .img {
@@ -745,7 +775,7 @@ section {
 }
 
 .why-us .accordion-list li {
-  padding: 20px;
+  padding: 20px 20px 15px;
   background: #fff;
   border-radius: 4px;
 }
@@ -753,17 +783,17 @@ section {
 .why-us .accordion-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  padding-right: 30px;
   outline: none;
   cursor: pointer;
+  font-weight: 600;
+}
+
+.why-us .accordion-list a:hover {
+  color: var(--ds-brand-dark-blue);
 }
 
 .why-us .accordion-list span {
-  color: #47b2e4;
+  color: var(--ds-brand-accent-yellow);
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -786,11 +816,11 @@ section {
 }
 
 .why-us .accordion-list a.collapsed {
-  color: #343a40;
+  color: var(--ds-brand-light-blue);
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: #47b2e4;
+  color: var(--ds-brand-dark-blue);
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
